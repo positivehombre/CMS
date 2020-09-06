@@ -52,17 +52,39 @@
   <div class="menubar-scroll">
     <div class="menubar-scroll-inner">
       <ul class="app-menu">
+        <li class="">
+          <a href="javascript:void(0)">
+            <i class="menu-icon zmdi zmdi-view-dashboard zmdi-hc-lg"></i>
+            <span class="menu-text">Dashboard</span>
+            <i class="menu-caret zmdi zmdi-hc-sm zmdi-chevron-right"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="javascript:void(0)">
+            <i class="menu-icon zmdi zmdi-settings zmdi-hc-lg"></i>
+            <span class="menu-text">Settings</span>
+          </a>
+        </li>
+
         <li class="has-submenu">
           <a href="javascript:void(0)" class="submenu-toggle">
-            <i class="menu-icon zmdi zmdi-view-dashboard zmdi-hc-lg"></i>
-            <span class="menu-text">Dashboards</span>
+            <i class="menu-icon zmdi zmdi-apps zmdi-hc-lg"></i>
+            <span class="menu-text">Galeriler</span>
             <i class="menu-caret zmdi zmdi-hc-sm zmdi-chevron-right"></i>
           </a>
           <ul class="submenu">
-            <li><a href="index.html"><span class="menu-text">Dashboard 1</span></a></li>
-            <li><a href="dashboard.2.html"><span class="menu-text">Dashboard 2</span></a></li>
-            <li><a href="dashboard.3.html"><span class="menu-text">Dashboard 3</span></a></li>
+            <li><a href="#"><span class="menu-text">Resim Galerisi</span></a></li>
+            <li><a href="#"><span class="menu-text">Video Galerisi</span></a></li>
+            <li><a href="#"><span class="menu-text">Dosya Galerisi</span></a></li>
           </ul>
+        </li>
+
+        <li>
+          <a href="javascript:void(0)">
+            <i class="menu-icon zmdi zmdi-layers zmdi-hc-lg"></i>
+            <span class="menu-text"> Slider </span>
+          </a>
         </li>
         
         <li class="has-submenu">
@@ -210,18 +232,6 @@
           </ul>
         </li>
 
-        <li class="has-submenu">
-          <a href="javascript:void(0)" class="submenu-toggle">
-            <i class="menu-icon zmdi zmdi-apps zmdi-hc-lg"></i>
-            <span class="menu-text">Apps</span>
-            <span class="label label-info menu-label">2</span>
-            <i class="menu-caret zmdi zmdi-hc-sm zmdi-chevron-right"></i>
-          </a>
-          <ul class="submenu">
-            <li><a href="calendar.html"><span class="menu-text">Calendar</span></a></li>
-            <li><a href="contacts.html"><span class="menu-text">Contacts</span></a></li>
-          </ul>
-        </li>
 
         <li class="menu-separator"><hr></li>
 
@@ -229,13 +239,6 @@
           <a href="documentation.html">
             <i class="menu-icon zmdi zmdi-file-text zmdi-hc-lg"></i>
             <span class="menu-text">Documentation</span>
-          </a>
-        </li>
-
-        <li>
-          <a href="javascript:void(0)">
-            <i class="menu-icon zmdi zmdi-settings zmdi-hc-lg"></i>
-            <span class="menu-text">Settings</span>
           </a>
         </li>
         
