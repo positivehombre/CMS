@@ -35,7 +35,6 @@
 <!--========== END app main -->
 
 <!-- SIDE PANEL -->
-<?php $this->load->view('includes/right-aside.php') ?>
 
 <?php $this->load->view('includes/include_script.php') ?>
 </body>
